@@ -26,11 +26,14 @@ function render(leads) {
             <li>
                 <a target='_blank' href='${leads[i]}'>
                     ${leads[i]}
+                    
                 </a>
             </li>
         `
+
     }
-    ulEl.innerHTML = listItems
+    ulEl.innerHTML = listItems;
+
 }
 
 deleteBtn.addEventListener("dblclick", function() {
